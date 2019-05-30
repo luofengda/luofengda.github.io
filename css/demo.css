@@ -1,0 +1,79 @@
+@font-face {
+  font-weight: normal;
+  font-style: normal;
+  font-family: 'feathericons';
+  src: url("../fonts/feathericons/feathericons.eot?-8is7zf");
+  src: url("../fonts/feathericons/feathericons.eot?#iefix-8is7zf") format("embedded-opentype"), url("../fonts/feathericons/feathericons.woff?-8is7zf") format("woff"), url("../fonts/feathericons/feathericons.ttf?-8is7zf") format("truetype"), url("../fonts/feathericons/feathericons.svg?-8is7zf#feathericons") format("svg");
+}
+
+
+
+
+
+
+
+.grid {
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 1em 0 4em;
+  max-width: 1000px;
+  list-style: none;
+  text-align: center;
+}
+
+figure {
+  float: left;
+  height: 360px; 
+  margin: 0 2% 0 0;
+  background: #3085a3;
+}
+figure.last {
+  margin: 0;
+}
+figure > img {
+  vertical-align:middle;
+  /* border: 1px salmon solid; */
+}
+.example-wrapper {
+  float: left;
+  margin: 30px 0 0 0;
+  width: 50%;
+}
+.example-wrapper h3 {
+  font-weight: 800;
+  margin: 0 0 15px 0;
+  color: #74777B;
+  text-align: left;
+}
+.example-wrapper pre, .example-wrapper code {
+  color: #74777B;
+  font-size: 16px;
+  line-height: 0.8em;
+  float: left;
+  text-align: left;
+  direction: ltr;
+  margin: 0;
+  padding: 0;
+}
+
+.options-wrapper {
+  float: left;
+  margin: 30px 0 0 0;
+  width: 50%;
+}
+.options-wrapper h3, .options-wrapper td {
+  color: #74777B;
+  text-align: left;
+}
+.options-wrapper h3 {
+  font-weight: 800;
+  margin: 0 0 15px 0;
+}
+.options-wrapper td {
+  font-size: 16px;
+  margin: 0 0 5px 0;
+  padding: 5px;
+}
+
+/*# sourceMappingURL=demo.css.map */
